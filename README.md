@@ -27,4 +27,5 @@ $ python tambola.py
 
 ## Example
 
+![](https://github.com/anuragal/tambola_score/blob/master/example.png)
 
