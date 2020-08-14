@@ -1,7 +1,7 @@
 ticket = [
-            [0, 11, 28,  0,  0, 52,  0, 74, 80],
-            [0, 16,  0, 33, 42, 54, 67,  0,  0],
-            [3, 18,  0,  0, 47,  0, 68,  0, 88]
+            [0, 10, 21,  32,  0, 52,  0, 72, 0],
+            [0, 13, 24, 0, 0, 57, 65,  75,  0],
+            [0, 14,  28,  0, 45,  0, 68,  76, 0]
          ]
 
 class Tambola:
@@ -36,7 +36,7 @@ class Tambola:
             if num != 0:
                 self.corners.add(num)
                 break
-        for num in self.ticket[0][-1:]:
+        for num in self.ticket[0][::-1]:
             if num != 0:
                 self.corners.add(num)
                 break
@@ -44,7 +44,7 @@ class Tambola:
             if num != 0:
                 self.corners.add(num)
                 break
-        for num in self.ticket[2][-1:]:
+        for num in self.ticket[2][::-1]:
             if num != 0:
                 self.corners.add(num)
                 break
@@ -128,7 +128,7 @@ class Tambola:
 
 if __name__ == "__main__":
     tambola_obj = Tambola(ticket, "Anurag")
-    #tambola_obj.print_all()
+    tambola_obj.print_all()
     print("Enter Tambola Number")
     while True:
         input_number = int(input())
