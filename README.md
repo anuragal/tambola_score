@@ -29,6 +29,8 @@ $ cd tambola_score
 $ python tambola.py
 ```
 
+press `Ctrl+c` or type -1 to exit the program
+
 ## Example
 
 ![](https://github.com/anuragal/tambola_score/blob/master/example.png)
