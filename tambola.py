@@ -129,7 +129,7 @@ class Tambola:
 
 if __name__ == "__main__":
     tambola_obj = Tambola(ticket, "Anurag")
-    tambola_obj.print_all()
+    #tambola_obj.print_all()
     print("Enter Tambola Number")
     while True:
         input_number = int(input())
