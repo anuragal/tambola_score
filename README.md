@@ -4,7 +4,8 @@ Play tambola without worrying to miss any of the corner, lines or full house
 
 ## SetUp
 
-Install Python 3.8 (https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe)
+- Install Python 3.8 (https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe)
+- Clone the repo - https://github.com/anuragal/tambola_score.git
 
 ## Pre-requisite
 
@@ -23,6 +24,7 @@ ticket = [
 
 ## Run
 
+$ cd tambola_score
 $ python tambola.py
 
 ## Example
