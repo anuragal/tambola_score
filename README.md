@@ -24,8 +24,10 @@ ticket = [
 
 ## Run
 
+```
 $ cd tambola_score
 $ python tambola.py
+```
 
 ## Example
 
